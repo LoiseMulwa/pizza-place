@@ -65,9 +65,9 @@
                     <img src="/images/ROUND1.jpg" id="piza">
                     <h4>PIZZA</h4>
                     <select>
-                        <option value="small">Small</option>
-                        <option value="medium">Medium</option>
-                        <option value="large">Large</option>
+                        <option value="small" value="500">Small</option>
+                        <option value="medium" value="700">Medium</option>
+                        <option value="large" value="1000">Large</option>
                     </select>
                 </div>
 
@@ -76,11 +76,14 @@
                 <div class="round2">
                     <img src="/images/ROUND2.jpg" id="toppings">
                     <h4>TOPPINGS</h4>
-                    <select>
-                        <option value="Mushroom">Mushroom</option>
-                        <option value="Extra cheese">Medium</option>
-                        <option value="Sausage">Large</option>
-                    </select>
+                    <input type="checkbox" id="mushroom" name="mushroom" value="100">
+                    <label for="mushroom"> Mushroom</label><br>
+                    <input type="checkbox" id="onions" name="onions" value="100">
+                    <label for="onions"> Onions</label><br>
+                    <input type="checkbox" id="bacon" name="bacon" value="100">
+                    <label for="bacon"> Bacon</label><br>
+                    <input type="checkbox" id="sausage" name="sausage" value="100">
+                    <label for="sausage"> Sausage</label>
                 </div>
 
             </div>
@@ -89,9 +92,9 @@
                     <img src="/images/ROUND3.jpg" id="crust">
                     <h4>CRUST</h4>
                     <select>
-                        <option value="Stuffed Crust">Stuffed Crust</option>
-                        <option value="Cracker Crust">Cracker Crust</option>
-                        <option value="Flat Bread Crust">Flat Bread Crust</option>
+                        <option value="Stuffed Crust" value="150">Stuffed Crust</option>
+                        <option value="Cracker Crust" value="100">Cracker Crust</option>
+                        <option value="Flat Bread Crust" value="100">Flat Bread Crust</option>
                     </select>
 
                 </div>
@@ -103,6 +106,21 @@
             </div>
         </div>
         <button id="btn">ORDER NOW </button>
+        <div class="table">
+            <table>
+                <tr>
+                    <th>ORDER NO:</th>
+                    <th>PIZZA SIZE</th>
+                    <th>TOPPINGS</th>
+                    <th>CRUST</th>
+                    <th>TOTAL</th>
+                    <tr>
+                        <td>1</td>
+                        <td></td>
+                    </tr>
+                </tr>
+            </table>
+        </div>
 
 
     </div>

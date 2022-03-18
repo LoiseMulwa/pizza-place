@@ -147,3 +147,7 @@ h5 {
     left: calc(46%);
     bottom: 0;
 }
+#mushroom,#bacon,#sausage,#onions{
+    font-weight: bold;
+    margin-left: 30%;
+}

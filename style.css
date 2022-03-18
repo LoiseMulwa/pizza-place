@@ -30,24 +30,40 @@ ul a{
     font-size: 210%;
 }
 #gif{
-    height: 40vh;
+    height: 35vh;
     width: 80vh;
-    padding-top: 3%;
+    padding-top:1%;
     margin-left: 10%;
-}
-#mid{
-    /* background-color:#A24857; */
-    padding-top: 3%;
-}
-#gif1{
-    background-color: maroon;
 
 }
-#par h3{
-    color: maroon;
+#mid{
+    background-color:#A24857;
+    padding-top: 1%;
+    height: 50vh;
+    margin-top: 2%;
+
+}
+#mid  h3{
     text-align: center;
+    color: whitesmoke;
 }
 #par p{
     margin-top: 5%;
     font-size: large;
+    color: whitesmoke;
+}
+#piza,#toppings,#crust{
+    height: 50vh;
+    width: 60vh;
+    border: 3px solid whitesmoke; 
+    border-radius: 50%;
+}
+/* .round1,.round2,.round3{
+    border: 3px solid maroon;
+    height: 70vh;
+}  */
+#order h3{
+    padding-top: 2%;
+    text-align: center;
+    color: maroon;
 }

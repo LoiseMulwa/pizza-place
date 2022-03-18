@@ -46,6 +46,19 @@ ul a{
 #mid  h3{
     text-align: center;
     color: whitesmoke;
+    display: inline-block;
+    position: relative;
+
+}
+#mid h3::after{
+    content: '';
+    height: 2px;
+    width: 7%;
+    background:whitesmoke;
+    position: absolute;
+    left: calc(46%);
+    bottom: 0;
+
 }
 #par p{
     margin-top: 5%;
@@ -66,4 +79,30 @@ ul a{
     padding-top: 2%;
     text-align: center;
     color: maroon;
+}
+.round1 h4,select,.round2 h4,select,.round3 h4,select{
+    margin-left: 30%;
+}
+select{
+    height: 5vh;
+    width: 50%;
+    border: 3px solid black;
+    
+}
+#btn{
+    margin-left: 40%;
+    margin-top: 3%;
+    width: 150px;
+    height: 6vh;
+    border: 3px solid black;
+    border-radius: 20px 20px 20px 0;
+    background-color: #A24857;
+}
+.footer{
+    background-color: #A24857;
+    padding-top: 3%;
+    margin-top: 10%;
+}
+.footer h3,p,h5{
+    color: whitesmoke;
 }

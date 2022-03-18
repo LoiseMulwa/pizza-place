@@ -1,0 +1,16 @@
+.top{
+    background-image: url("/images/plate-g37ff8dbc2_1920.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400vh;
+    background-attachment: fixed;
+
+}
+ul a{
+    padding: 10px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: large;
+}

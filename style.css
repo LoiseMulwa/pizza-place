@@ -152,3 +152,19 @@ h5 {
     font-weight: bold;
     margin-left: 30%;
 }
+#infoyes,#infono,#checkout,.button,#comp{
+    width: 150px;
+    height: 6vh;
+    border: 3px solid black;
+    border-radius: 20px 20px 20px 0;
+    background-color:#A24857;
+    margin-left: 50%;
+}
+#name,#area{
+    padding-top: 2%;
+    border: 2px solid black;
+    width: 500px;
+}
+.more,.table{
+    display: none;
+}

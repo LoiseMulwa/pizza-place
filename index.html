@@ -30,14 +30,10 @@
                 <div class="piz mt-5 text-center text-white">
                     <h1><em><span style="color: maroon;">PIZZA</span> PLACE</em> </h1>
                     <p>THE PIZZA YOU'VE ALWAYS DREAMED OF !!!</p>
-
                 </div>
-
             </div>
-
         </div>
     </div>
-
     <div class="container-fluid">
         <div class="row" id="mid">
             <h3>ABOUT US</h3>
@@ -77,13 +73,13 @@
                     <img src="/images/ROUND2.jpg" id="toppings">
                     <h4>TOPPINGS</h4>
                     <input type="checkbox" id="mushroom" name="mushroom" value="100">
-                    <label for="mushroom"> Mushroom</label><br>
-                    <input type="checkbox" id="onions" name="onions" value="100">
-                    <label for="onions"> Onions</label><br>
+                    <label for="mushroom"> Mushroom-ksh 100</label><br>
+                    <input type="checkbox" id="onions" name="onions" value="50">
+                    <label for="onions"> Onions-ksh 50</label><br>
                     <input type="checkbox" id="bacon" name="bacon" value="100">
-                    <label for="bacon"> Bacon</label><br>
+                    <label for="bacon"> Bacon-ksh 100</label><br>
                     <input type="checkbox" id="sausage" name="sausage" value="100">
-                    <label for="sausage"> Sausage</label>
+                    <label for="sausage"> Sausage-ksh 100</label>
                 </div>
 
             </div>
@@ -108,19 +104,30 @@
         <button id="btn">ORDER NOW </button>
         <div class="table">
             <table>
-                <tr>
-                    <th>ORDER NO:</th>
-                    <th>PIZZA SIZE</th>
-                    <th>TOPPINGS</th>
-                    <th>CRUST</th>
-                    <th>TOTAL</th>
+                <thead>
                     <tr>
-                        <td>1</td>
-                        <td></td>
+                        <th scope="col">ORDER NO:</th>
+                        <th scope="col">PIZZA SIZE</th>
+                        <th scope="col">TOPPINGS</th>
+                        <th scope="col">CRUST</th>
+                        <th scope="col">TOTAL</th>
                     </tr>
-                </tr>
+                </thead>
+                <tbody id="myplace">
+                    <tr>
+                        <th scope="row">1</th>
+                        <td id="size"></td>
+                        <td id="toppings"></td>
+                        <td id="crust"></td>
+                        <td id="total"></td>
+                    </tr>
+                </tbody>
             </table>
         </div>
+        <div class="more">
+
+        </div>
+        
 
 
     </div>

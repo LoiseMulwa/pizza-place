@@ -69,13 +69,14 @@ ul a {
     color: whitesmoke;
 }
 
-#piza,
-#toppings,
-#crust {
+#piza,#toppings,#crust {
     height: 50vh;
     width: 60vh;
     border: 3px solid whitesmoke;
     border-radius: 50%;
+}
+#piza:hover,#toppings:hover,#crust:hover{
+    opacity: 0.4;
 }
 
 #order h3 {
@@ -150,4 +151,7 @@ h5 {
 #mushroom,#bacon,#sausage,#onions{
     font-weight: bold;
     margin-left: 30%;
+}
+.table{
+    display: none;
 }

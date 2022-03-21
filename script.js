@@ -58,6 +58,8 @@ $(document).ready(function() {
     $("#msg").show();
     $("#infoyes").show();
     $("#infono").show();
+    $("#deliv").show();
+
     
     Amount= Amount + total;
 
@@ -69,7 +71,8 @@ $(document).ready(function() {
     $("#infoyes").hide();
     $("#infono").hide();
     $("form").show();
-    $("#msg").html(grandTotal + 200);
+    $("#comp").show();
+    $("#msg").html(Amount + 250);
   });
 
   $("#infono").click(function() {
@@ -86,7 +89,8 @@ $(document).ready(function() {
     var name=$("#name").val();
     $("#rece").show();
     $("form").hide();
-    $("rece span").html(location);
+    $("#comp").show();
+    $("rece").html(location);
   });
 
 });

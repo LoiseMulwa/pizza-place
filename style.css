@@ -156,7 +156,7 @@ h5 {
     width: 150px;
     height: 6vh;
     border: 3px solid black;
-    border-radius: 20px 20px 20px 0;
+    border-radius: 20px 20px 20px 20px;
     background-color:#A24857;
     margin-left: 50%;
 }

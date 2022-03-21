@@ -36,7 +36,14 @@
 * JAVASCRIPT-Makes the website responsive.
 
 ## LIVE LINK
-* Click this link to view my website-
+* Click this link to view my website-https://loisemulwa.github.io/pizza-place/
+
+## BDD
+* select the type of pizza you want,the crust and toppings.
+* click order now button.
+* You will see your order with the pricing and you can make another order .
+* You can choose yes for delivery or no if you do not want delivery.
+* click complete to finish
 
 
 

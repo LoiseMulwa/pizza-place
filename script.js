@@ -63,7 +63,7 @@ $(document).ready(function() {
     
     Amount= Amount + total;
 
-    $("#msg").html(Amount);
+    $("#msg").html("Your total is" +  Amount);
  });
 
  $("#infoyes").click(function() {
@@ -72,14 +72,15 @@ $(document).ready(function() {
     $("#infono").hide();
     $("form").show();
     $("#comp").show();
-    $("#msg").html(Amount + 250);
+    $("#msg").html("Your total amount is" + (Amount +250));
   });
 
   $("#infono").click(function() {
     $("#deliv").hide();
     $("#infoyes").hide();
     $("#infono").hide();
-    $("form").show();
+    $("form").hide();
+    $(alert("THANK YOU OUR DEAR CUSTOMER ,YOUR ORDER WILL BE DELIVERED"))
   })
 
   
@@ -87,13 +88,19 @@ $(document).ready(function() {
   $("#comp").click(function() {
     var location = $("#area").val();
     var name=$("#name").val();
-    $("#rece").show();
+    // alert(location);
+    // alert(name);
+    alert("THANK YOU "+ name  + " Your order is going to be delivered in " + location)
     $("form").hide();
-    $("#comp").show();
-    $("rece").html(location);
+
+    // $("#rece").show();
+    // $("form").hide();
+    // $("#comp").show();
+    // $("rece").html(location);
   });
 
 });
+
 
 
 

@@ -25,7 +25,7 @@ $(document).ready(function() {
     $("#btn").hide();
 
     $("#size").html($(".size option:selected").text() + " - " + pizzaSize);
-    $("#toppings").html($(".toppings option:selected").text() + " - " + pizzaTopping);
+    $("#toppings").html($(".toppings option:selected").text() + " - " + pizzaTopping );
     $("#crust").html($(".crust option:selected").text() + " - " + pizzaCrust);
     $("#total").html(total);
 
@@ -55,7 +55,7 @@ $(document).ready(function() {
  $("#checkout").click(function(){
     $(".button").hide();
     $("#checkout").hide();
-    $(".additional-info").show();
+    $("#msg").show();
     $("#infoyes").show();
     $("#infono").show();
     

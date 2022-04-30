@@ -1,3 +1,4 @@
+
 ## PIZZA AREA
 
 ##### By Loise Mulwa
@@ -14,7 +15,7 @@
 + [Authors Info](#author-Info)
 
 ## Description
-<p>Welcome to pizza area.This is a website that show cases and tells our customers more about us.You can select the type of pizza you want ,the toppings and the crust then make your order.</p>
+Welcome to pizza area.This is a website that show cases and tells our customers more about us.You can select the type of pizza you want ,the toppings and the crust then make your order.
 
 
 
@@ -24,7 +25,7 @@
 
 * An access to the Internet.
 * Click on the live link found below and you will be able to see the website.
-* On the browser you can type our website url link and you will be able to see our servoces and reach out to us as well.
+* On the browser you can type our website url link and you will be able to see our services and reach out to us as well.
 ### Cloning
 * You can git clone from my repo to get the link.
 
